@@ -3,8 +3,8 @@ This is a simple game where player wins by crossing a road without getting bitte
 
 ## Installation
 1. Get the application by downloading or cloaning
-    * Download [Zip]()
-    * Clone [Git repository]()
+    * Download [Zip](https://github.com/arushisingh90/frontend-nanodegree-arcade-game.git)
+    * Clone [Git repository](https://github.com/arushisingh90/frontend-nanodegree-arcade-game)
 2. Navigate to the setup you got on your local workstation and double click on index.html to open it on browser window
 
 ## Usage
