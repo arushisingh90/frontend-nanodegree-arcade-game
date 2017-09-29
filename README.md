@@ -1,6 +1,20 @@
-frontend-nanodegree-arcade-game
-===============================
+# Classic Arcade Game Frogger
+This is a simple game where player wins by crossing a road without getting bitten by enemy bugs
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## Installation
+1. Get the application by downloading or cloaning
+    * Download [Zip]()
+    * Clone [Git repository]()
+2. Navigate to the setup you got on your local workstation and double click on index.html to open it on browser window
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Usage
+1. Game navigation
+    * Use up arrow the move the player up
+    * Use down arrow to move the player down
+    * Use left Arrow to move the player left
+    * Use right arrow to move the player right
+2. Winning game
+Player will have to cross the road and reach the water without getting bitten by enemy bugs
+
+## Resources
+[Intermediate JavaScript](https://classroom.udacity.com/nanodegrees/nd001/parts/3692bea4-2632-4ce2-a693-32eafb84dd98)
