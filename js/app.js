@@ -1,3 +1,6 @@
+// Whole-script strict mode syntax
+'use strict';
+
 // Enemies our player must avoid
 var Enemy = function(x,y,speed) {
     // Variables applied to each of our instances go here,
@@ -52,10 +55,10 @@ Enemy.prototype.collisionCheck = function(){
 // a handleInput() method.
 
 var Player = function(x,y,speed){
-this.sprite = 'images/char-boy.png';
-this.x = x;
-this.y = y; 
-this.speed = speed;
+    this.sprite = 'images/char-boy.png';
+    this.x = x;
+    this.y = y; 
+    this.speed = speed;
 };
 
 // Draw the enemy on the screen, required method for game
@@ -103,8 +106,8 @@ Player.prototype.inCanvasCheck = function(){
 Player.prototype.playerWinCheck = function(){
     //Check if player won
     if(this.y >= 0 && this.y <= 41.5){
-        player.x = 202;
-        player.y = 415;
+        this.x = 202;
+        this.y = 415;
         ctx.strokeRect(150,0,200,50);
         ctx.textAlign = "center";
         ctx.font = "36pt impact";
